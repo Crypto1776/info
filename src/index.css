@@ -17,7 +17,7 @@
     font-family: "Times New Roman";
 }
 .portada{
-    background-image: url("https://github.com/sayyr1/personal/blob/master/images/hero.png?raw=true"), linear-gradient(90deg, #a67c00 0%, #bf9b30 29%, rgb(64, 64, 64) 100%);
+    background-image: url("https://github.com/sayyr1/personal/blob/master/images/hero.png?raw=true");
 }
 
 /*-------------------------------
@@ -156,4 +156,10 @@
 
 /*.coin-input::placeholder {*/
 /*    color: #e2e2e2;*/
+/*}*/
+/*.letras{*/
+/*    font-size: 2.7rem;*/
+/*}*/
+/*.letritas{*/
+/*    font-size: 37px;*/
 /*}*/

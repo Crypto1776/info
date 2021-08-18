@@ -1,16 +1,23 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Slide from 'react-reveal/Slide';
 
 const Hero = () => {
     return (
         <>
             <div className='bg-white flex flex-col items-center justify-center landing md:px-60 md:w-auto md:h-80 portada'>
-                <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl text-white mb-14 logo-text'>
-                    D<span className="text-8xl">I</span>F<span className="text-8xl">I</span>
 
-                 <span> I</span><span className="text-8xl">o</span>T
+            <Slide left>
+
+                <h1 className='lg:text-9xl md:text-8xl text-4xl text-white mb-14 logo-text text-center letras'>
+                    D<span className="text-2xl md:text-8xl letritas">I</span>F<span className="text-2xl md:text-8xl ">I</span>
+
+                 <span> I</span><span className="text-4xl md:text-8xl">o</span>T
                     LATINOAMERICA
                 </h1>
+
+                </Slide>
+
                 <Link className='py-6 px-10  rounded-full bg-yellow-300 flex text-xl
             items-center transition duration-300 ease-in-out animate-bounce infomation'  to='/informacion'>
                     Información
