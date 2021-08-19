@@ -14,7 +14,7 @@ const Hero = () => {
     className: "text-2xl md:text-8xl "
   }, "I"), /* @__PURE__ */ React.createElement("span", null, " I"), /* @__PURE__ */ React.createElement("span", {
     className: "text-4xl md:text-8xl"
-  }, "o"), "T LATINOAMERICA")), /* @__PURE__ */ React.createElement(Link, {
+  }, "O"), "T LATINOAMERICA")), /* @__PURE__ */ React.createElement(Link, {
     className: "py-6 px-10  rounded-full bg-yellow-300 flex text-xl\n            items-center transition duration-300 ease-in-out animate-bounce infomation",
     to: "/informacion"
   }, "Información")), /* @__PURE__ */ React.createElement("div", {
