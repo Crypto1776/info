@@ -12,7 +12,7 @@ const Hero = () => {
                 <h1 className='lg:text-9xl md:text-8xl text-4xl text-white mb-14 logo-text text-center letras'>
                     D<span className="text-2xl md:text-8xl letritas">I</span>F<span className="text-2xl md:text-8xl ">I</span>
 
-                 <span> I</span><span className="text-4xl md:text-8xl">o</span>T
+                 <span> I</span><span className="text-4xl md:text-8xl">O</span>T
                     LATINOAMERICA
                 </h1>
 
