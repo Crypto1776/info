@@ -3,15 +3,15 @@ import {Link, NavLink} from "../../snowpack/pkg/react-router-dom.js";
 import logo from "../images/MarcaDifi.png.proxy.js";
 const Navbar = ({toggle}) => {
   return /* @__PURE__ */ React.createElement("nav", {
-    className: "flex justify-between items-center bg-black md:text-xl lg:text-xl bg-white relative\n         shadow-sm font-mono",
+    className: "flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative\n         shadow-sm font-mono",
     role: "navigation"
   }, /* @__PURE__ */ React.createElement(NavLink, {
     to: "/",
     className: "pl-8"
   }, /* @__PURE__ */ React.createElement("img", {
-    src: "https://github.com/Crypto1776/website/blob/main/src/images/MarcaDifi.png?raw=true",
+    src: "https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true",
     alt: "Logo",
-    className: "w-20 md:w-40 pt-4 "
+    className: "w-40 md:w-60 pt-4 "
   })), /* @__PURE__ */ React.createElement("div", {
     className: "px-4 cursor-pointer md:hidden",
     onClick: toggle
@@ -27,7 +27,7 @@ const Navbar = ({toggle}) => {
     strokeWidth: 2,
     d: "M4 6h16M4 12h16M4 18h16"
   }))), /* @__PURE__ */ React.createElement("div", {
-    className: "pr-8 hidden md:block text-black"
+    className: "pr-8 hidden md:block text-white"
   }, /* @__PURE__ */ React.createElement(NavLink, {
     className: "p-4 no-underline",
     to: "/"
