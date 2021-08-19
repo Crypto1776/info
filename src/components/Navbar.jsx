@@ -4,7 +4,7 @@ import logo from '../images/MarcaDifi.png';
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className='flex justify-between items-center bg-black md:text-xl lg:text-xl bg-white
+    <nav className='flex justify-between items-center bg-black md:text-xl lg:text-xl bg-white relative
          shadow-sm font-mono'
          role='navigation'>
       <NavLink to='/' className='pl-8'>
