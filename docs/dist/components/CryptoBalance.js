@@ -16,7 +16,7 @@ function CryptoBalance() {
   };
   const filteredCoins = coins.filter((coin) => coin.name.toLowerCase().includes(search.toLowerCase()));
   return /* @__PURE__ */ React.createElement("div", {
-    className: "coin-app flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-5 px-3 md:gap-1"
+    className: "coin-app flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-5 px-3 md:gap-1 bg-white "
   }, /* @__PURE__ */ React.createElement("div", {
     className: "coin-search md:hidden"
   }, /* @__PURE__ */ React.createElement("h1", {

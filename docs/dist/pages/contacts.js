@@ -29,9 +29,12 @@ const Contactos = () => {
     rel: "noreferrer"
   }, /* @__PURE__ */ React.createElement(FaYoutubeSquare, {
     className: "text-5xl rounded youtube"
-  })), /* @__PURE__ */ React.createElement(FaTwitch, {
+  })), /* @__PURE__ */ React.createElement("a", {
+    href: "https://www.twitch.tv/difilatinoamerica",
+    target: "_blank"
+  }, /* @__PURE__ */ React.createElement(FaTwitch, {
     className: "text-5xl rounded twitch"
-  }), /* @__PURE__ */ React.createElement(FaWhatsapp, {
+  }), " "), /* @__PURE__ */ React.createElement(FaWhatsapp, {
     className: "text-5xl rounded twitch"
   }))), /* @__PURE__ */ React.createElement("div", {
     className: "flex flex-col justify-center items-center w-full "

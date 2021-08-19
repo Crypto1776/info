@@ -10,7 +10,7 @@ const Coin = ({
   priceChange
 }) => {
   return /* @__PURE__ */ React.createElement("div", {
-    className: "coin-container center-content md:flex-rows border"
+    className: "coin-container center-content md:flex-rows border mt-3"
   }, /* @__PURE__ */ React.createElement("div", {
     className: "coin-row"
   }, /* @__PURE__ */ React.createElement("div", {
