@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../images/MarcaDifi.png';
 
 const Navbar = ({ toggle }) => {
   return (
@@ -9,7 +8,7 @@ const Navbar = ({ toggle }) => {
          role='navigation'>
       <NavLink to='/' className='pl-8'>
         <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true' alt='Logo'
-             className='w-40 md:w-60 pt-4 ' />
+             className=' w-40 md:w-60 py-5 md:pt-4' />
       </NavLink>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'

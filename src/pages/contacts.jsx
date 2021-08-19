@@ -19,7 +19,8 @@ const Contactos = () => {
              rel='noreferrer'><FaInstagramSquare className='text-5xl rounded instagram' /></a>
           <a href='https://www.youtube.com/channel/UCC5jKLTWSIHgRWN6tyKyw5g' target='_blank'
              rel='noreferrer'><FaYoutubeSquare className='text-5xl rounded youtube' /></a>
-          <FaTwitch className='text-5xl rounded twitch' />
+          <a href='https://www.twitch.tv/difilatinoamerica' target='_blank'><FaTwitch className='text-5xl rounded twitch' /> </a>
+
           <FaWhatsapp className='text-5xl rounded twitch' />
 
         </div>

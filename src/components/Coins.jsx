@@ -11,7 +11,7 @@ const Coin = ({
                   priceChange
               }) => {
     return (
-        <div className='coin-container center-content md:flex-rows border'>
+        <div className='coin-container center-content md:flex-rows border mt-3'>
             <div className='coin-row'>
                 <div className='coin center-content'>
                     <h1 className="text-xl text-center md:text-2xl">{name}-{symbol}</h1>

@@ -28,7 +28,7 @@ function CryptoBalance() {
     );
 
     return (
-        <div className='coin-app flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-5 px-3 md:gap-1'>
+        <div className='coin-app flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-5 px-3 md:gap-1 bg-white '>
 
             <div className='coin-search md:hidden'>
                 <h1 className='coin-text text-center'>Busca una Moneda</h1>
