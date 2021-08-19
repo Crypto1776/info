@@ -11,13 +11,25 @@ const Contactos = () => {
     className: "text-center"
   }, "Para atender todas sus dudas estamos en todas las plataformas digitales."), /* @__PURE__ */ React.createElement("div", {
     className: "flex flex-col items-center md:flex-row justify-center p-8 md:gap-5"
+  }, /* @__PURE__ */ React.createElement("a", {
+    href: "https://www.facebook.com/profile.php?id=100071847725078",
+    target: "_blank",
+    rel: "noreferrer"
   }, /* @__PURE__ */ React.createElement(FaFacebookF, {
     className: "text-5xl rounded facebook"
-  }), /* @__PURE__ */ React.createElement(FaInstagramSquare, {
+  })), /* @__PURE__ */ React.createElement("a", {
+    href: "https://instagram.com/difi_iot?utm_medium=copy_link",
+    target: "_blank",
+    rel: "noreferrer"
+  }, /* @__PURE__ */ React.createElement(FaInstagramSquare, {
     className: "text-5xl rounded instagram"
-  }), /* @__PURE__ */ React.createElement(FaYoutubeSquare, {
+  })), /* @__PURE__ */ React.createElement("a", {
+    href: "https://www.youtube.com/channel/UCC5jKLTWSIHgRWN6tyKyw5g",
+    target: "_blank",
+    rel: "noreferrer"
+  }, /* @__PURE__ */ React.createElement(FaYoutubeSquare, {
     className: "text-5xl rounded youtube"
-  }), /* @__PURE__ */ React.createElement(FaTwitch, {
+  })), /* @__PURE__ */ React.createElement(FaTwitch, {
     className: "text-5xl rounded twitch"
   }), /* @__PURE__ */ React.createElement(FaWhatsapp, {
     className: "text-5xl rounded twitch"
