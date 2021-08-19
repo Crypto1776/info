@@ -4,12 +4,12 @@ import logo from '../images/MarcaDifi.png';
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className='flex justify-between items-center bg-black md:text-xl lg:text-xl bg-white relative
+    <nav className='flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative
          shadow-sm font-mono'
          role='navigation'>
       <NavLink to='/' className='pl-8'>
-        <img src='https://github.com/Crypto1776/website/blob/main/src/images/MarcaDifi.png?raw=true' alt='Logo'
-             className='w-20 md:w-40 pt-4 ' />
+        <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true' alt='Logo'
+             className='w-40 md:w-60 pt-4 ' />
       </NavLink>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'
@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
 
-      <div className='pr-8 hidden md:block text-black'>
+      <div className='pr-8 hidden md:block text-white'>
         <NavLink className='p-4 no-underline' to='/'>Home</NavLink>
         <NavLink className='p-4 no-underline' to='/contactos'
                  activeClassName='bg-red-600 text-gray-100 rounded-lg'>Contactos</NavLink>
