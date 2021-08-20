@@ -2,7 +2,7 @@ import React from "../../snowpack/pkg/react.js";
 import {NavLink} from "../../snowpack/pkg/react-router-dom.js";
 const Navbar = ({toggle}) => {
   return /* @__PURE__ */ React.createElement("nav", {
-    className: "flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative\n         shadow-sm font-mono",
+    className: "flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative\n         shadow-sm font-mono nav",
     role: "navigation"
   }, /* @__PURE__ */ React.createElement(NavLink, {
     to: "/",
@@ -29,17 +29,21 @@ const Navbar = ({toggle}) => {
     className: "pr-8 hidden md:block text-white"
   }, /* @__PURE__ */ React.createElement(NavLink, {
     className: "p-4 no-underline",
+    smooth: true,
     to: "/"
   }, "Home"), /* @__PURE__ */ React.createElement(NavLink, {
     className: "p-4 no-underline",
+    smooth: true,
     to: "/contactos",
     activeClassName: "bg-red-600 text-gray-100 rounded-lg"
   }, "Contactos"), /* @__PURE__ */ React.createElement(NavLink, {
     className: "p-4 no-underline",
+    smooth: true,
     to: "/conferencias",
     activeClassName: "bg-red-600 text-gray-100 rounded-lg"
   }, "Conferencias"), /* @__PURE__ */ React.createElement(NavLink, {
     className: "p-4 no-underline",
+    smooth: true,
     to: "/tienda",
     activeClassName: "bg-red-600 text-gray-100 rounded-lg"
   }, "Tienda")));
