@@ -50,8 +50,7 @@ The only exception is if your paste destination has a font which doesn't support
     }))), /* @__PURE__ */ React.createElement("div", {
       className: "information-second-part"
     }, /* @__PURE__ */ React.createElement(Fade, {
-      left: true,
-      cascade: true
+      left: true
     }, /* @__PURE__ */ React.createElement("p", null, info.text))));
   });
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h2", {

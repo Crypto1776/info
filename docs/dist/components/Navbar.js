@@ -1,5 +1,5 @@
 import React from "../../snowpack/pkg/react.js";
-import {Link, NavLink} from "../../snowpack/pkg/react-router-dom.js";
+import {NavLink} from "../../snowpack/pkg/react-router-dom.js";
 const Navbar = ({toggle}) => {
   return /* @__PURE__ */ React.createElement("nav", {
     className: "flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative\n         shadow-sm font-mono",
