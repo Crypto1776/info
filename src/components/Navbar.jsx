@@ -4,7 +4,7 @@ import {  NavLink } from 'react-router-dom';
 const Navbar = ({ toggle }) => {
   return (
     <nav className='flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative
-         shadow-sm font-mono'
+         shadow-sm font-mono nav'
          role='navigation'>
       <NavLink to='/' className='pl-8'>
         <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true' alt='Logo'
@@ -18,12 +18,12 @@ const Navbar = ({ toggle }) => {
       </div>
 
       <div className='pr-8 hidden md:block text-white'>
-        <NavLink className='p-4 no-underline' to='/'>Home</NavLink>
-        <NavLink className='p-4 no-underline' to='/contactos'
-                 activeClassName='bg-red-600 text-gray-100 rounded-lg'>Contactos</NavLink>
-        <NavLink className='p-4 no-underline' to='/conferencias'
+        <NavLink className='p-4 no-underline' smooth to='/'>Home</NavLink>
+        <NavLink className='p-4 no-underline' smooth to='/contactos'
+                 activeClassName='bg-red-600 text-gray-100 rounded-lg' >Contactos</NavLink>
+        <NavLink className='p-4 no-underline' smooth to='/conferencias'
                  activeClassName='bg-red-600 text-gray-100 rounded-lg'>Conferencias</NavLink>
-        <NavLink className='p-4 no-underline' to='/tienda'
+        <NavLink className='p-4 no-underline' smooth to='/tienda'
                  activeClassName='bg-red-600 text-gray-100 rounded-lg'>Tienda</NavLink>
 
       </div>
