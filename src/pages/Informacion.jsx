@@ -41,7 +41,7 @@ const Informacion = () => {
         <div className='information-first-part'>
           <h2 className='text-xl font-black text-center'>{info.title}</h2>
           <LightSpeed>
-          <img className='w-full block' src={info.image} alt='information' />
+            <img className='w-full block' src={info.image} alt='information' />
           </LightSpeed>
         </div>
         <div className='information-second-part'>

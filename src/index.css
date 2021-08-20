@@ -87,3 +87,9 @@
     top:0;
     z-index: 100;
 }
+.dropdown{
+    position: sticky;
+    top:5rem;
+    z-index: 100;
+
+}
