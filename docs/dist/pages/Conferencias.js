@@ -6,7 +6,7 @@ const Conferencias = () => {
       titulo: "Conferencia 1",
       fecha: "16-8-2020",
       lugar: "Ibarra",
-      info: "0983842004",
+      info: "0990812688",
       image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
     },
     {
@@ -14,7 +14,7 @@ const Conferencias = () => {
       titulo: "Conferencia 2",
       fecha: "16-8-2020",
       lugar: "Ibarra",
-      info: "0983842004",
+      info: "0990812688",
       image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
     },
     {
@@ -22,7 +22,7 @@ const Conferencias = () => {
       titulo: "Conferencia 3",
       fecha: "16-8-2020",
       lugar: "Ibarra",
-      info: "0983842004",
+      info: "0990812688",
       image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
     },
     {
@@ -30,7 +30,7 @@ const Conferencias = () => {
       titulo: "Conferencia 1",
       fecha: "16-8-2020",
       lugar: "Ibarra",
-      info: "0983842004",
+      info: "0990812688",
       image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
     }
   ];
