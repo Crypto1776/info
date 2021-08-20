@@ -1,6 +1,5 @@
 import React from "../../snowpack/pkg/react.js";
 import {Link, NavLink} from "../../snowpack/pkg/react-router-dom.js";
-import logo from "../images/MarcaDifi.png.proxy.js";
 const Navbar = ({toggle}) => {
   return /* @__PURE__ */ React.createElement("nav", {
     className: "flex justify-between items-center bg-black text-white md:text-xl lg:text-xl  relative\n         shadow-sm font-mono",
@@ -11,7 +10,7 @@ const Navbar = ({toggle}) => {
   }, /* @__PURE__ */ React.createElement("img", {
     src: "https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true",
     alt: "Logo",
-    className: "w-40 md:w-60 pt-4 "
+    className: " w-40 md:w-60 py-5 md:pt-4"
   })), /* @__PURE__ */ React.createElement("div", {
     className: "px-4 cursor-pointer md:hidden",
     onClick: toggle
