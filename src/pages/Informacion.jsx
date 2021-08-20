@@ -2,8 +2,6 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/Fade';
 
-
-
 const Informacion = () => {
   const informationArray = [{
     id: '1',
@@ -47,7 +45,7 @@ const Informacion = () => {
           </LightSpeed>
         </div>
         <div className='information-second-part'>
-          <Fade left cascade>
+          <Fade left>
             <p>{info.text}</p>
           </Fade>
         </div>
