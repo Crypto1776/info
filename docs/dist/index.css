@@ -1061,6 +1061,23 @@ video {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
+.volantes {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	align-items: center;
+}
+@media (min-width: 768px) {
+
+	.volantes {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+@media (min-width: 1024px) {
+
+	.volantes {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
 
 /*-------------------------------
     CODIGOS PARA CRYPTOS
