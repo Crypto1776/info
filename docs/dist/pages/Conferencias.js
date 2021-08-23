@@ -7,20 +7,12 @@ const Conferencias = () => {
       fecha: "16-8-2020",
       lugar: "Ibarra",
       info: "0990812688",
-      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
-    },
-    {
-      id: 1,
-      titulo: "Conferencia 2",
-      fecha: "16-8-2020",
-      lugar: "Ibarra",
-      info: "0990812688",
-      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
+      image: "https://github.com/Crypto1776/website/blob/main/src/images/volante.jpg?raw=true"
     }
   ];
   const conferenceDisplay = conferenceArray.map((items) => {
     return /* @__PURE__ */ React.createElement("div", {
-      className: "relative group shadow-lg block center-content hover:shadow-xl mb-14 px-8"
+      className: "relative group shadow-lg block center-content hover:shadow-xl mb-14 px-8 "
     }, /* @__PURE__ */ React.createElement("img", {
       className: "md:group-hover:grayscale md:group-hover:blur md:group-hover:contrast h-full",
       src: items.image,
@@ -36,7 +28,7 @@ const Conferencias = () => {
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h2", {
     className: " text-2xl md:text-3xl lg:text-5xl md:text-3xl lg:text-4xl text-center py-7 font-extrabold"
   }, "Conferencias"), /* @__PURE__ */ React.createElement("div", {
-    className: "grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 text-center"
+    className: " text-center w-lg center-content screen"
   }, conferenceDisplay));
 };
 export default Conferencias;
