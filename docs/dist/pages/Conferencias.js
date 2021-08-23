@@ -7,7 +7,7 @@ const Conferencias = () => {
       fecha: "16-8-2020",
       lugar: "Ibarra",
       info: "0990812688",
-      image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
+      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
     },
     {
       id: 1,
@@ -15,7 +15,7 @@ const Conferencias = () => {
       fecha: "16-8-2020",
       lugar: "Ibarra",
       info: "0990812688",
-      image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
+      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
     },
     {
       id: 1,
@@ -23,7 +23,7 @@ const Conferencias = () => {
       fecha: "16-8-2020",
       lugar: "Ibarra",
       info: "0990812688",
-      image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
+      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
     },
     {
       id: 1,
@@ -31,7 +31,7 @@ const Conferencias = () => {
       fecha: "16-8-2020",
       lugar: "Ibarra",
       info: "0990812688",
-      image: "https://images.unsplash.com/photo-1606603696914-a0f46d934b9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80"
+      image: "https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true"
     }
   ];
   const conferenceDisplay = conferenceArray.map((items) => {
@@ -48,7 +48,8 @@ const Conferencias = () => {
     }, items.lugar), /* @__PURE__ */ React.createElement("div", {
       className: "transition bg-yellow-50 duration-600 bottom-0 left-0 h-40 md:h-40 w-full absolute group-hover:opacity-100 opacity-0"
     }, /* @__PURE__ */ React.createElement("a", {
-      href: "facebook.com",
+      href: "https://api.whatsapp.com/send/?phone=%2B593990812688&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0",
+      target: "_blank",
       className: "animate-bounce rounded-xl w-20 bg-yellow-500 p-6 text-white md:text-lg md:p-3 text-xl"
     }, "Inscribirme")));
   });
