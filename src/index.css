@@ -2,27 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
-.menu-card{
+.menu-card {
     @apply flex flex-col justify-center items-center bg-white
     h-screen font-mono py-40;
 }
-.center-content{
+
+.center-content {
     @apply flex flex-col justify-center items-center;
 }
-.boton{
+
+.boton {
     width: fit-content;
 }
-.logo-text{
+
+.logo-text {
     padding-top: 5rem;
     font-family: "Times New Roman";
 }
-.portada{
+
+.portada {
     background-image: url("https://github.com/sayyr1/personal/blob/master/images/hero.png?raw=true");
 }
-.screen{
+
+.screen {
     @apply grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
 }
-.volantes{
+
+.volantes {
     @apply grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
 }
 
@@ -67,35 +73,47 @@
 
     color: #e2e2e2;
 }
+
 /*NAV*/
-.navegacion{
-    background: rgb(8,8,8);
-    background: linear-gradient(90deg, rgba(8,8,8,0.4718838218881303) 9%, rgba(36,36,36,0.5531163148853291) 17%, rgba(28,25,25,0.7772059507396709) 26%, rgba(0,0,0,1) 64%);
+.navegacion {
+    background: rgb(8, 8, 8);
+    background: linear-gradient(90deg, rgba(8, 8, 8, 0.4718838218881303) 9%, rgba(36, 36, 36, 0.5531163148853291) 17%, rgba(28, 25, 25, 0.7772059507396709) 26%, rgba(0, 0, 0, 1) 64%);
 }
 
 /*Tarjetas de Infomacion*/
 
 
-@media (min-width:801px)  {
-    div.information section:nth-of-type(odd){
+@media (min-width: 801px) {
+    div.information section:nth-of-type(odd) {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
     }
-    div.information section:nth-of-type(even){
+
+    div.information section:nth-of-type(even) {
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
     }
-  }
-.nav{
-   position: sticky;
-    top:0;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
     z-index: 100;
 }
-.dropdown{
-    position: sticky;
-    top:5rem;
-    z-index: 100;
 
+.dropdown {
+    position: sticky;
+    top: 5rem;
+    z-index: 100;
+}
+
+/*CONFERENCIAS*/
+
+
+@media (min-width: 768px) {
+    .logo-conferencias{
+        width: 45rem;
+    }
 }

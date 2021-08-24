@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
          shadow-sm font-mono nav'
          role='navigation'>
       <NavLink to='/' className='pl-8'>
-        <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo_web.png?raw=true' alt='Logo'
+        <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo-web.png?raw=true' alt='Logo'
              className=' w-40 md:w-60 py-5 md:pt-4' />
       </NavLink>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
