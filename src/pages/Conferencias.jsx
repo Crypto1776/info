@@ -7,69 +7,38 @@ import Zoom from 'react-reveal/Zoom';
 const Conferencias = () => {
   const conferenceArray = [
     {
-      id: 1,
-      titulo: 'Conferencia 1',
-      fecha: '16-8-2020',
-      lugar: 'Ibarra',
-      info: '0990812688',
-      image: 'https://github.com/Crypto1776/website/blob/main/src/images/volante.jpg?raw=true',
+      numero: 1,
+      texto: 'Historia del Bitcoin, Cryptomoneda y el Dólar',
     },
-    // {
-    //     id: 1,
-    //     titulo: 'Conferencia 2',
-    //     fecha: '16-8-2020',
-    //     lugar: 'Ibarra',
-    //     info: '0990812688',
-    //     image: 'https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true'
-    // }
+    {
+      numero: 2,
+      texto: 'Cómo entrar en el mundo de la Cryptomoneda, Bitcoin de forma segura',
+    }, {
+      numero: 3,
+      texto: 'Cómo ganar dinero y mejorar la vida de la Crytomoneda y Blockchain',
+    }, {
+      numero: 4,
+      texto: 'Oportunidades de tener su negocio propio en Cryptomonedas ahora',
+    },
 
-    // }, {
-    //     id: 1,
-    //     titulo: 'Conferencia 3',
-    //     fecha: '16-8-2020',
-    //     lugar: 'Ibarra',
-    //     info: '0990812688',
-    //     image: 'https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true'
-    //
-    // }, {
-    //     id: 1,
-    //     titulo: 'Conferencia 1',
-    //     fecha: '16-8-2020',
-    //     lugar: 'Ibarra',
-    //     info: '0990812688',
-    //     image: 'https://github.com/Crypto1776/website/blob/main/src/images/afiche.jpg?raw=true'
-    // }
   ];
-  const conferenceDisplay = conferenceArray.map((items) => {
-    return (
-      <div className='relative group shadow-lg block center-content hover:shadow-xl mb-14 px-8 '>
-        <img className='md:group-hover:grayscale md:group-hover:blur md:group-hover:contrast h-full' src={items.image}
-             alt={items.titulo} />
-        <div
-          className='transition bg-yellow-50 duration-600 bottom-0 left-0 h-20 md:h-40 w-full md:absolute md:group-hover:opacity-100 md:opacity-0'>
-          <a
-            href='https://api.whatsapp.com/send/?phone=%2B593990812688&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0'
-            target='_blank'
-            className='animate-bounce rounded-xl w-20 bg-yellow-500 p-6 text-white md:text-lg md:p-3 text-xl'>Inscribirme</a>
-        </div>
-      </div>
-    );
-  });
+
   return (
     <>
       <h1
-        className=' text-4xl md:text-3xl lg:text-5xl md:text-3xl lg:text-4xl text-center py-7 font-extrabold'>Conferencias</h1>
-      <div className=' text-center w-lg center-content screen'>
+        className=' text-4xl md:text-3xl lg:text-5xl md:text-3xl lg:text-4xl text-center py-7 font-extrabold bg-1 text-white'>Conferencia
+        1</h1>
+      <div className=' text-center w-lg center-content'>
       </div>
-      <section className='px-3 center-content'>
-        <div className='center-content border border-yellow-600 '>
-          <div className={'block bg-yellow-300 shadow-xl w-full font-bold px-2'}>
+      <section className='conferencias-content center-content bg-1'>
+        <div className='center-content'>
+          <div className={'block bg-gradient-to-r from-purple-700 to-purple-500 text-white shadow-xl w-full px-2 text-xl py-6'}>
             <h2>18, Septiembre 16h00 pm - 19h00 pm</h2>
             <h2>Hotel Turismo</h2>
             <h3>Ibarra-Ecuador</h3>
           </div>
           <div>
-            <div className={'block'}>
+            <div className={'block pt-10'}>
               <Flip>
                 <img src='https://github.com/Crypto1776/website/blob/main/src/images/logo-web.png?raw=true' alt='Logo'
                      className='p-5 md:pt-4 animate-ping logo-conferencias' />
@@ -81,49 +50,82 @@ const Conferencias = () => {
             <div>
 
               <LightSpeed right>
-                <div>
-                  <h1 className='bg-white text-4xl text-center'>Crypto Conference</h1>
-                  <h1 className='bg-white text-4xl text-center pb-3'>2021</h1>
-                  <h2 className='bg-white text-xl text-center text-yellow-700  font-black'>EL MEJOR MÉTODO PARA</h2>
-                  <h2 className='bg-white text-xl text-center text-yellow-700  font-black'>GANAR DINERO DE FORMA
+                <div className='bg-1 text-white pt-10 pb-10'>
+                  <h1 className=' text-4xl text-center'>Crypto Conference</h1>
+                  <h1 className=' text-4xl text-center pb-3'>2021</h1>
+                  <h2 className=' text-xl text-center text-white  '>EL MEJOR MÉTODO PARA</h2>
+                  <h2 className=' text-xl text-center text-white '>GANAR DINERO DE FORMA
                     SEGURA</h2>
-                  <h2 className='bg-white text-xl text-center text-yellow-700 font-black'>POR PRIMERA VEZ EN LA CIUDAD
+                  <h2 className=' text-xl text-center text-white'>POR PRIMERA VEZ EN LA CIUDAD
                     BLANCA DE IBARRA</h2>
-                  <h3 className='bg-white text-xl text-center text-yellow-700 font-black shadow-xl'>Asiste y aprende con
+                  <h3 className=' text-xl text-center text-white shadow-xl'>Asiste y aprende con
                     nosotros en Crypto Conference</h3>
                 </div>
               </LightSpeed>
             </div>
 
-            <div className={'px-2 e shadow-sm rounded-full'}>
-              <h2>Dirigido a todas las personas que desean aprender y prepararse por el futuro potencial colapso del
+            <div className={'px-2 p-5 shadow-sm rounded-3xl text-white'}>
+              <h2 className='px-3 text-yellow-700 text-2xl text-center'>Dirigido a todas las personas que desean
+                aprender y prepararse por el futuro potencial colapso del
                 dólar.</h2>
             </div>
-            <LightSpeed left>
-              <div className={'px-2 shadow-xl'}>
-                <h1 className='font-black'>PUNTOS A TRATAR </h1>
+              <div className={'px-2 shadow-xl bg-white'}>
+                <div>
+                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué aprenderas en Crypto Conference?
+                  </h1>
+                </div>
                 <ol>
-                  <li>1. Historia del Bitcoin, Cryptomoneda y el Dólar.</li>
-                  <li>2. Cómo entrar en el mundo de la Cryptomoneda, Bitcoin de forma segura.</li>
-                  <li>3. Cómo ganar dinero y mejorar la vida de la Crytomoneda y Blockchain.</li>
-                  <li>4. Oportunidades de tener su negocio propio en Cryptomonedas ahora.</li>
+                  {
+                    conferenceArray.map(items => (
+                      <div className='center-content'>
+                        <LightSpeed left>
+                        <div
+                          className='text-center bg-gradient-to-r from-purple-700 to-purple-500 text-white w-3/4 rounded rounded-6xl mb-14 p-8'>
+                          <p className='text-yellow-600 text-4xl'>{items.numero}</p>
+                          <h2>{items.texto}</h2>
+                        </div>
+                        </LightSpeed>
+                      </div>
+                    ))
+
+                  }
                 </ol>
               </div>
-            </LightSpeed>
-            <LightSpeed right>
-              <div className={'px-2'}>
-                <h3 className='font-black'>Requisitos</h3>
-                <h2>Traer un Smartphone: Apple o Android.</h2>
-                <h2>Un cuadernillo de notas y un lapicero.</h2>
+              <div className={'px-2 bg-white pb-8'}>
+                <div>
+                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué llevar?
+                  </h1>
+                </div>
+                <LightSpeed right>
+                <div className="center-content">
+                  <svg xmlns='http://www.w3.org/2000/svg' className='h-full
+                   w-20 text-2xl' fill='none' viewBox='0 0 24 24'
+                       stroke='currentColor'>
+                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2}
+                          d='M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z' />
+                  </svg>
+                  <h2 className="text-xl">Traer un Smartphone: Apple o Android.</h2>
+                </div>
+                </LightSpeed>
+                <LightSpeed left>
+                <div className="center-content">
+                  <svg xmlns='http://www.w3.org/2000/svg' className='h-20 w-full' fill='none' viewBox='0 0 24 24'
+                       stroke='currentColor'>
+                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2}
+                          d='M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' />
+                  </svg>
+                  <h2 className="text-xl">Un cuadernillo de notas y un lapicero.</h2>
+
+                </div>
+                </LightSpeed>
               </div>
-            </LightSpeed>
           </div>
           <Zoom right>
-            <div>
-              <h1 className='bg-white md:text-7xl text-center text-2xl font-black'>Evento Gratuito</h1>
-              <h3>Cupos Limitados, llama ya.</h3>
-              <div className='center-content pb-3'>
-                <a className='rounded-xl  bg-yellow-500 p-2 text-center text-white md:text-lg md:p-3 text-xl'
+            <div className="py-6">
+              <h1 className=' md:text-7xl text-center text-3xl text-white py-3 '>Evento Gratuito</h1>
+              <h3 className="text-white text-center py-2">Cupos Limitados.</h3>
+              <div className='center-content py-3'>
+                <a className='rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-3 text-xl'
                    href='https://api.whatsapp.com/send/?phone=%2B5939900707889&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0'
                    target='_blank'
                 >Inscribirme</a>
