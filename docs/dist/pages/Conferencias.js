@@ -33,7 +33,7 @@ const Conferencias = () => {
   }, "Conferencias"), /* @__PURE__ */ React.createElement("div", {
     className: " text-center w-lg center-content screen"
   }), /* @__PURE__ */ React.createElement("section", {
-    className: "px-3"
+    className: "px-3 center-content"
   }, /* @__PURE__ */ React.createElement("div", {
     className: "center-content border border-yellow-600 "
   }, /* @__PURE__ */ React.createElement("div", {
@@ -77,10 +77,10 @@ const Conferencias = () => {
   }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", {
     className: "bg-white md:text-7xl text-center text-2xl font-black"
   }, "Evento Gratuito"), /* @__PURE__ */ React.createElement("h3", null, "Cupos Limitados, llama ya."), /* @__PURE__ */ React.createElement("div", {
-    className: "center-content "
+    className: "center-content pb-3"
   }, /* @__PURE__ */ React.createElement("a", {
     className: "rounded-xl  bg-yellow-500 p-2 text-center text-white md:text-lg md:p-3 text-xl",
-    href: "https://api.whatsapp.com/send/?phone=%2B593990812688&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0",
+    href: "https://api.whatsapp.com/send/?phone=%2B5939900707889&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0",
     target: "_blank"
   }, "Inscribirme")))))));
 };
