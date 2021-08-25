@@ -71,7 +71,7 @@ const Conferencias = () => {
             </div>
               <div className={'px-2 shadow-xl bg-white'}>
                 <div>
-                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué aprenderas en Crypto Conference?
+                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué aprenderás en Crypto Conference?
                   </h1>
                 </div>
                 <ol>
@@ -126,7 +126,7 @@ const Conferencias = () => {
               <h3 className="text-white text-center py-2">Cupos Limitados.</h3>
               <div className='center-content py-3'>
                 <a className='rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-3 text-xl'
-                   href='https://api.whatsapp.com/send/?phone=%2B5939900707889&text=Estoy+Interesado+en+asistir+a+este+evento.&app_absent=0'
+                   href='https://forms.gle/3hqMaSDzr8My2QUq5'
                    target='_blank'
                 >Inscribirme</a>
               </div>
