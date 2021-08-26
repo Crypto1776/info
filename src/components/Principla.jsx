@@ -20,7 +20,7 @@ const Hero = () => {
 
                 <Link className='py-6 px-10  rounded-full bg-yellow-300 flex text-xl
             items-center transition duration-300 ease-in-out animate-bounce infomation'  to='/informacion'>
-                    Información
+                  ¿Quiénes somos?
 
                 </Link>
             </div>

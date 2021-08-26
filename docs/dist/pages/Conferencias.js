@@ -30,7 +30,7 @@ const Conferencias = () => {
   }, /* @__PURE__ */ React.createElement("div", {
     className: "center-content"
   }, /* @__PURE__ */ React.createElement("div", {
-    className: "block bg-gradient-to-r from-purple-700 to-purple-500 text-white shadow-xl w-full px-2 text-xl py-6"
+    className: "block bg-gradient-to-r from-purple-700 to-purple-500 text-white shadow-xl w-full px-2 text-xl md:text-2xl py-6"
   }, /* @__PURE__ */ React.createElement("h2", null, "18, Septiembre 16h00 pm - 19h00 pm"), /* @__PURE__ */ React.createElement("h2", null, "Hotel Turismo"), /* @__PURE__ */ React.createElement("h3", null, "Ibarra-Ecuador")), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", {
     className: "block pt-10"
   }, /* @__PURE__ */ React.createElement(Flip, null, /* @__PURE__ */ React.createElement("img", {
@@ -42,7 +42,7 @@ const Conferencias = () => {
   }, /* @__PURE__ */ React.createElement("div", {
     className: "bg-1 text-white pt-10 pb-10"
   }, /* @__PURE__ */ React.createElement("h1", {
-    className: " text-4xl text-center"
+    className: " text-4xl  text-center"
   }, "Crypto Conference"), /* @__PURE__ */ React.createElement("h1", {
     className: " text-4xl text-center pb-3"
   }, "2021"), /* @__PURE__ */ React.createElement("h2", {
@@ -60,7 +60,7 @@ const Conferencias = () => {
   }, "Dirigido a todas las personas que desean aprender y prepararse por el futuro potencial colapso del dólar.")), /* @__PURE__ */ React.createElement("div", {
     className: "px-2 shadow-xl bg-white"
   }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", {
-    className: "pregunta-1 text-4xl py-6 text-center"
+    className: "pregunta-1 text-4xl md:text-6xl py-6 text-center"
   }, "¿Qué aprenderás en Crypto Conference?")), /* @__PURE__ */ React.createElement("ol", null, conferenceArray.map((items) => /* @__PURE__ */ React.createElement("div", {
     className: "center-content"
   }, /* @__PURE__ */ React.createElement(LightSpeed, {
@@ -68,15 +68,17 @@ const Conferencias = () => {
   }, /* @__PURE__ */ React.createElement("div", {
     className: "text-center bg-gradient-to-r from-purple-700 to-purple-500 text-white w-3/4 rounded rounded-6xl mb-14 p-8"
   }, /* @__PURE__ */ React.createElement("p", {
-    className: "text-yellow-600 text-4xl"
-  }, items.numero), /* @__PURE__ */ React.createElement("h2", null, items.texto))))))), /* @__PURE__ */ React.createElement("div", {
+    className: "text-yellow-600 text-4xl md:text-5xl"
+  }, items.numero), /* @__PURE__ */ React.createElement("h2", {
+    className: "text-xl md:text-3xl"
+  }, items.texto))))))), /* @__PURE__ */ React.createElement("div", {
     className: "px-2 bg-white pb-8"
   }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", {
-    className: "pregunta-1 text-4xl py-6 text-center"
+    className: "pregunta-1 text-4xl md:text-6xl py-6 text-center"
   }, "¿Qué llevar?")), /* @__PURE__ */ React.createElement(LightSpeed, {
     right: true
   }, /* @__PURE__ */ React.createElement("div", {
-    className: "center-content"
+    className: "center-content py-8 text-center"
   }, /* @__PURE__ */ React.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     className: "h-full\n                   w-20 text-2xl",
@@ -89,11 +91,11 @@ const Conferencias = () => {
     strokeWidth: 2,
     d: "M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
   })), /* @__PURE__ */ React.createElement("h2", {
-    className: "text-xl"
+    className: "text-xl md:text-3xl"
   }, "Traer un Smartphone: Apple o Android."))), /* @__PURE__ */ React.createElement(LightSpeed, {
     left: true
   }, /* @__PURE__ */ React.createElement("div", {
-    className: "center-content"
+    className: "center-content text-center text-xl py-7"
   }, /* @__PURE__ */ React.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     className: "h-20 w-full",
@@ -110,15 +112,15 @@ const Conferencias = () => {
   }, "Un cuadernillo de notas y un lapicero"))))), /* @__PURE__ */ React.createElement(Zoom, {
     right: true
   }, /* @__PURE__ */ React.createElement("div", {
-    className: "py-6"
+    className: "py-5"
   }, /* @__PURE__ */ React.createElement("h1", {
-    className: " md:text-7xl text-center text-3xl text-white py-3 "
+    className: " md:text-5xl text-center text-3xl text-white py-3 "
   }, "Evento Gratuito"), /* @__PURE__ */ React.createElement("h3", {
-    className: "text-white text-center py-2"
+    className: "text-white text-center py-2 md:text-3xl "
   }, "Cupos Limitados."), /* @__PURE__ */ React.createElement("div", {
-    className: "center-content py-3"
+    className: "center-content py-3 "
   }, /* @__PURE__ */ React.createElement("a", {
-    className: "rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-3 text-xl",
+    className: "rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-6 text-xl md:text-4xl",
     href: "https://forms.gle/3hqMaSDzr8My2QUq5",
     target: "_blank"
   }, "Inscribirme")))))));

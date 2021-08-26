@@ -38,7 +38,7 @@ const Informacion = () => {
   return (
     <>
       <h2 className='text-2xl md:text-3xl lg:text-4xl text-center py-6 md:py-7 font-extrabold'>Mision Vision</h2>
-      <section className='information bg-1 text-white md:center-content md:px-80'>
+      <section className='information bg-1 text-white md:center-content lg:px-80'>
         <div className='px-6'>
           <Fade left>
           <div className='py-6'>
