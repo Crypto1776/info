@@ -32,7 +32,7 @@ const Conferencias = () => {
       </div>
       <section className='conferencias-content center-content bg-1'>
         <div className='center-content'>
-          <div className={'block bg-gradient-to-r from-purple-700 to-purple-500 text-white shadow-xl w-full px-2 text-xl py-6'}>
+          <div className={'block bg-gradient-to-r from-purple-700 to-purple-500 text-white shadow-xl w-full px-2 text-xl md:text-2xl py-6'}>
             <h2>18, Septiembre 16h00 pm - 19h00 pm</h2>
             <h2>Hotel Turismo</h2>
             <h3>Ibarra-Ecuador</h3>
@@ -51,7 +51,7 @@ const Conferencias = () => {
 
               <LightSpeed right>
                 <div className='bg-1 text-white pt-10 pb-10'>
-                  <h1 className=' text-4xl text-center'>Crypto Conference</h1>
+                  <h1 className=' text-4xl  text-center'>Crypto Conference</h1>
                   <h1 className=' text-4xl text-center pb-3'>2021</h1>
                   <h2 className=' text-xl text-center text-white  '>EL MEJOR MÉTODO PARA</h2>
                   <h2 className=' text-xl text-center text-white '>GANAR DINERO DE FORMA
@@ -71,7 +71,7 @@ const Conferencias = () => {
             </div>
               <div className={'px-2 shadow-xl bg-white'}>
                 <div>
-                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué aprenderás en Crypto Conference?
+                  <h1 className='pregunta-1 text-4xl md:text-6xl py-6 text-center'>¿Qué aprenderás en Crypto Conference?
                   </h1>
                 </div>
                 <ol>
@@ -81,8 +81,8 @@ const Conferencias = () => {
                         <LightSpeed left>
                         <div
                           className='text-center bg-gradient-to-r from-purple-700 to-purple-500 text-white w-3/4 rounded rounded-6xl mb-14 p-8'>
-                          <p className='text-yellow-600 text-4xl'>{items.numero}</p>
-                          <h2>{items.texto}</h2>
+                          <p className='text-yellow-600 text-4xl md:text-5xl'>{items.numero}</p>
+                          <h2 className="text-xl md:text-3xl">{items.texto}</h2>
                         </div>
                         </LightSpeed>
                       </div>
@@ -93,22 +93,22 @@ const Conferencias = () => {
               </div>
               <div className={'px-2 bg-white pb-8'}>
                 <div>
-                  <h1 className='pregunta-1 text-4xl py-6 text-center'>¿Qué llevar?
+                  <h1 className='pregunta-1 text-4xl md:text-6xl py-6 text-center'>¿Qué llevar?
                   </h1>
                 </div>
                 <LightSpeed right>
-                <div className="center-content">
+                <div className="center-content py-8 text-center">
                   <svg xmlns='http://www.w3.org/2000/svg' className='h-full
                    w-20 text-2xl' fill='none' viewBox='0 0 24 24'
                        stroke='currentColor'>
                     <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2}
                           d='M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z' />
                   </svg>
-                  <h2 className="text-xl">Traer un Smartphone: Apple o Android.</h2>
+                  <h2 className="text-xl md:text-3xl">Traer un Smartphone: Apple o Android.</h2>
                 </div>
                 </LightSpeed>
                 <LightSpeed left>
-                <div className="center-content">
+                <div className="center-content text-center text-xl py-7">
                   <svg xmlns='http://www.w3.org/2000/svg' className='h-20 w-full' fill='none' viewBox='0 0 24 24'
                        stroke='currentColor'>
                     <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2}
@@ -121,11 +121,11 @@ const Conferencias = () => {
               </div>
           </div>
           <Zoom right>
-            <div className="py-6">
-              <h1 className=' md:text-7xl text-center text-3xl text-white py-3 '>Evento Gratuito</h1>
-              <h3 className="text-white text-center py-2">Cupos Limitados.</h3>
-              <div className='center-content py-3'>
-                <a className='rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-3 text-xl'
+            <div className="py-5">
+              <h1 className=' md:text-5xl text-center text-3xl text-white py-3 '>Evento Gratuito</h1>
+              <h3 className="text-white text-center py-2 md:text-3xl ">Cupos Limitados.</h3>
+              <div className='center-content py-3 '>
+                <a className='rounded-xl  bg-yellow-700 p-2 text-center text-white md:text-lg md:p-6 text-xl md:text-4xl'
                    href='https://forms.gle/3hqMaSDzr8My2QUq5'
                    target='_blank'
                 >Inscribirme</a>
