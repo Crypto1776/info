@@ -17,7 +17,7 @@ const Hero = () => {
   }, "O"), "T LATINOAMERICA")), /* @__PURE__ */ React.createElement(Link, {
     className: "py-6 px-10  rounded-full bg-yellow-300 flex text-xl\n            items-center transition duration-300 ease-in-out animate-bounce infomation",
     to: "/informacion"
-  }, "Información")), /* @__PURE__ */ React.createElement("div", {
+  }, "¿Quiénes somos?")), /* @__PURE__ */ React.createElement("div", {
     className: "bg-black grid grid-cols-1 md:grid-cols-2 py-6 "
   }, /* @__PURE__ */ React.createElement("div", {
     className: "text-white flex-col flex justify-centers items-center md:pl-8"

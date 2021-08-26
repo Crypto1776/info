@@ -996,11 +996,6 @@ video {
 		padding-bottom: 1.75rem;
 	}
 
-	.md\:px-80 {
-		padding-left: 20rem;
-		padding-right: 20rem;
-	}
-
 	.md\:pt-4 {
 		padding-top: 1rem;
 	}
@@ -1067,6 +1062,11 @@ video {
 	.lg\:py-20 {
 		padding-top: 5rem;
 		padding-bottom: 5rem;
+	}
+
+	.lg\:px-80 {
+		padding-left: 20rem;
+		padding-right: 20rem;
 	}
 
 	.lg\:text-xl {
