@@ -28,6 +28,15 @@ const opcioneArray = [
         link: '/tienda'
 
 
+    },
+    {
+        id: '4',
+        title: 'Canal de YouTube',
+        text: 'Mira todas nuestras capacitaciones en YouTube.',
+        icons: 'https://github.com/Crypto1776/website/blob/main/src/images/shopping-cart.png?raw=true',
+        link: '/tienda'
+
+
     }
 ];
 

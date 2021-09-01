@@ -35,7 +35,7 @@ const Informacion = () => {
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h2", {
     className: "text-2xl md:text-3xl lg:text-4xl text-center py-6 md:py-7 font-extrabold"
   }, "Mision Vision"), /* @__PURE__ */ React.createElement("section", {
-    className: "information bg-1 text-white md:center-content md:px-80"
+    className: "information bg-1 text-white md:center-content lg:px-80"
   }, /* @__PURE__ */ React.createElement("div", {
     className: "px-6"
   }, /* @__PURE__ */ React.createElement(Fade, {

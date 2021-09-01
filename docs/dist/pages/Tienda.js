@@ -73,6 +73,8 @@ const Tienda = () => {
     className: "text-2xl md:text-3xl lg:text-4xl text-center py-7 font-extrabold"
   }, "Tienda"), /* @__PURE__ */ React.createElement("div", {
     className: "flex flex-col items-center justify-center md:flex-row md:gap-5 md:flex-wrap text-center"
-  }, conferenceDisplay));
+  }, /* @__PURE__ */ React.createElement("h3", {
+    className: "text-xl md:text-3xl lg:text-5xl py-10"
+  }, "Página en Construcción.")));
 };
 export default Tienda;
