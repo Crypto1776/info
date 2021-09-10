@@ -17,16 +17,16 @@ const opcioneArray = [
     link: "/conferencias"
   },
   {
-    id: "3",
-    title: "Tienda",
-    text: "Mire todos nuestros productos.",
-    icons: "https://github.com/Crypto1776/website/blob/main/src/images/shopping-cart.png?raw=true",
-    link: "/tienda"
-  },
-  {
     id: "4",
     title: "Canal de YouTube",
     text: "Mira todas nuestras capacitaciones en YouTube.",
+    icons: "https://github.com/Crypto1776/website/blob/main/src/images/you-tube.png?raw=true",
+    link: "/canal"
+  },
+  {
+    id: "3",
+    title: "Tienda",
+    text: "Mire todos nuestros productos.",
     icons: "https://github.com/Crypto1776/website/blob/main/src/images/shopping-cart.png?raw=true",
     link: "/tienda"
   }

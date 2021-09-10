@@ -613,6 +613,9 @@ video {
 .h-20 {
 	height: 5rem;
 }
+.h-60 {
+	height: 15rem;
+}
 .w-1\/2 {
 	width: 50%;
 }
@@ -817,6 +820,10 @@ video {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
+.px-1 {
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+}
 .pl-8 {
 	padding-left: 2rem;
 }
@@ -892,6 +899,10 @@ video {
 .text-yellow-600 {
 	--tw-text-opacity: 1;
 	color: rgba(217, 119, 6, var(--tw-text-opacity));
+}
+.text-black {
+	--tw-text-opacity: 1;
+	color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 .no-underline {
 	text-decoration: none;
@@ -1098,6 +1109,7 @@ video {
 		line-height: 1;
 	}
 }
+
 .menu-card {
 	display: flex;
 	height: 100vh;
