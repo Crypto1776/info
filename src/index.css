@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
+
 .menu-card {
     @apply flex flex-col justify-center items-center bg-white
     h-screen font-mono py-40;

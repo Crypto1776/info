@@ -8,6 +8,8 @@ import Contactos from './pages/contacts';
 import Conferencias from './pages/Conferencias';
 import Tienda from './pages/Tienda';
 import Informacion from './pages/Informacion';
+import Canal from './pages/Canal';
+
 
 function App3() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +37,7 @@ function App3() {
         <Route path='/contactos' exact component={Contactos} />
         <Route path='/conferencias' exact component={Conferencias} />
         <Route path='/tienda' exact component={Tienda} />
+        <Route path='/canal' exact component={Canal} />
         <Route path='/informacion' exact component={Informacion} />
       </Switch>
       <Footer />
