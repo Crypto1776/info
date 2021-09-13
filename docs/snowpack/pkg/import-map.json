@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "axios": "./axios.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-icons/fa": "./react-icons/fa.js",
+    "react-modal-video": "./react-modal-video.js",
+    "react-modal-video/css/modal-video.css": "./react-modal-video/css/modal-video.css",
+    "react-reveal/Fade": "./react-reveal/Fade.js",
+    "react-reveal/Flip": "./react-reveal/Flip.js",
+    "react-reveal/LightSpeed": "./react-reveal/LightSpeed.js",
+    "react-reveal/Slide": "./react-reveal/Slide.js",
+    "react-reveal/Zoom": "./react-reveal/Zoom.js",
+    "react-router-dom": "./react-router-dom.js"
+  }
+}
