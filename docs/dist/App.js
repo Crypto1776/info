@@ -8,6 +8,7 @@ import Contactos from "./pages/contacts.js";
 import Conferencias from "./pages/Conferencias.js";
 import Tienda from "./pages/Tienda.js";
 import Informacion from "./pages/Informacion.js";
+import Canal from "./pages/Canal.js";
 function App3() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -45,6 +46,10 @@ function App3() {
     path: "/tienda",
     exact: true,
     component: Tienda
+  }), /* @__PURE__ */ React.createElement(Route, {
+    path: "/canal",
+    exact: true,
+    component: Canal
   }), /* @__PURE__ */ React.createElement(Route, {
     path: "/informacion",
     exact: true,
