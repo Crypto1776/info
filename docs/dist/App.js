@@ -9,6 +9,7 @@ import Conferencias from "./pages/Conferencias.js";
 import Tienda from "./pages/Tienda.js";
 import Informacion from "./pages/Informacion.js";
 import Canal from "./pages/Canal.js";
+import Ihub from "./pages/Ihub.js";
 function App3() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -54,6 +55,10 @@ function App3() {
     path: "/informacion",
     exact: true,
     component: Informacion
+  }), /* @__PURE__ */ React.createElement(Route, {
+    path: "/ihub",
+    exact: true,
+    component: Ihub
   })), /* @__PURE__ */ React.createElement(Footer, null));
 }
 export default App3;

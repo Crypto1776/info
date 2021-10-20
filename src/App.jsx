@@ -9,6 +9,7 @@ import Conferencias from './pages/Conferencias';
 import Tienda from './pages/Tienda';
 import Informacion from './pages/Informacion';
 import Canal from './pages/Canal';
+import Ihub from './pages/Ihub';
 
 
 function App3() {
@@ -39,6 +40,7 @@ function App3() {
         <Route path='/tienda' exact component={Tienda} />
         <Route path='/canal' exact component={Canal} />
         <Route path='/informacion' exact component={Informacion} />
+        <Route path='/ihub' exact component={Ihub} />
       </Switch>
       <Footer />
     </>

@@ -10,18 +10,11 @@ const opcioneArray = [
     link: "/contactos"
   },
   {
-    id: "2",
-    title: "Conferencias",
-    text: "Recibe toda la información de nuestras conferencias.",
-    icons: "https://github.com/Crypto1776/website/blob/main/src/images/conference.png?raw=true",
-    link: "/conferencias"
-  },
-  {
-    id: "4",
-    title: "Canal de YouTube",
-    text: "Mira todas nuestras capacitaciones en YouTube.",
-    icons: "https://github.com/Crypto1776/website/blob/main/src/images/you-tube.png?raw=true",
-    link: "/canal"
+    id: "5",
+    title: "I-hub Global",
+    text: "Que es el proyecto I-hub Global?.",
+    icons: "https://ihubglobal.site/wp-content/uploads/2021/08/cropped-ihub_logo_1-1-250x72.png",
+    link: "/ihub"
   },
   {
     id: "3",
