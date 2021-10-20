@@ -15,7 +15,7 @@ const Hero = () => {
   }, "I"), /* @__PURE__ */ React.createElement("span", null, " I"), /* @__PURE__ */ React.createElement("span", {
     className: "text-4xl md:text-8xl"
   }, "O"), "T LATINOAMERICA")), /* @__PURE__ */ React.createElement(Link, {
-    className: "py-6 px-10  rounded-full bg-yellow-300 flex text-xl\r\n            items-center transition duration-300 ease-in-out animate-bounce infomation",
+    className: "py-6 px-10  rounded-full bg-yellow-300 flex text-xl\n            items-center transition duration-300 ease-in-out animate-bounce infomation",
     to: "/informacion"
   }, "¿Quiénes somos?")), /* @__PURE__ */ React.createElement("div", {
     className: "bg-black grid grid-cols-1 md:grid-cols-2 py-6 "

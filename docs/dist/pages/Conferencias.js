@@ -81,7 +81,7 @@ const Conferencias = () => {
     className: "center-content py-8 text-center"
   }, /* @__PURE__ */ React.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
-    className: "h-full\r\n                   w-20 text-2xl",
+    className: "h-full\n                   w-20 text-2xl",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
